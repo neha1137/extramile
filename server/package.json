@@ -1,0 +1,20 @@
+{
+  "name": "extra-miler-drive-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "connect-drive": "node get-refresh-token.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "googleapis": "^156.0.0",
+    "multer": "^2.0.2",
+    "firebase-admin": "^13.6.0",
+    "nodemailer": "^7.0.10"
+  }
+}
